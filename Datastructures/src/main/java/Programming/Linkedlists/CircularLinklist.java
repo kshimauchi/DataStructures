@@ -22,6 +22,7 @@ public class CircularLinklist {
             head = new Node(data);
             return;
         }
+        //update the tail
         tail().next = new Node(data);
     }
     //Iterates through the nodes given data and add it to the end of the list
